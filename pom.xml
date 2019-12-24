@@ -8,6 +8,8 @@
     <artifactId>springboot_lecture</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    
+
     <!-- Inherit defaults from Spring Boot -->
     <parent>
         <groupId>org.springframework.boot</groupId>
