@@ -1,2 +1,16 @@
 server:
   port: 9090
+spring:
+  application:
+    name: mytest
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+  mandatory-file-encoding: UTF-8
+
+
+myConfig:
+  myObject:
+    myName: zhangsan
+    myAge: 20

@@ -22,6 +22,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+        <!--添加这个依赖是为了查看springboot打包和运行机制的源码，开发时并不需要-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-loader</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
