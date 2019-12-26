@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 public class MyConfig {
 
     @Bean
-    public MyConfigBean myConfigBean(){
+    public MyConfigBean myConfigBean1(){
         return new MyConfigBean();
     }
 }

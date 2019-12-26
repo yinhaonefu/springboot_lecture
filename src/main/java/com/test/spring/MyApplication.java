@@ -11,5 +11,10 @@ public class MyApplication {
         //直接执行main方法输出sun.misc.Launcher$AppClassLoader
         System.out.println(MyApplication.class.getClassLoader());
         SpringApplication.run(MyApplication.class, args);
+
+        //也可以使用编码方式设置配置信息
+//        SpringApplication springApplication = new SpringApplication(MyApplication.class);
+//        springApplication.setBannerMode(Banner.Mode.OFF);
+//        springApplication.run(args);
     }
 }
