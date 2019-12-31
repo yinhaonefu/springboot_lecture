@@ -14,3 +14,7 @@ myConfig:
   myObject:
     myName: zhangsan
     myAge: 20
+
+logging:
+  level:
+    root: info

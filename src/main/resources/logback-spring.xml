@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--经测试这里对应日志级别配置优先级高于application.yml-->
 <configuration>
     <include resource="org/springframework/boot/logging/logback/base.xml"/>
     <logger name="com.test.spring" level="DEBUG" />
