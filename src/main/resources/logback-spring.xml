@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <logger name="com.test.spring" level="DEBUG" />
+
+    <!--根据不同胡环境指定不同的级别，如果当前环境没有指定日志级别，使用上面的默认级别DEBUG-->
+    <springProfile name="default">
+        <logger name="com.test.spring" level="INFO"/>
+    </springProfile>
+</configuration>
